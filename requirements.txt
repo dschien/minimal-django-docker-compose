@@ -1,0 +1,4 @@
+Django
+psycopg2
+django-cookie-law>=1.0.6
+gunicorn

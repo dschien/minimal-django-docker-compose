@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% load cookielaw_tags %}
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+
+    <script src="{% static 'cookielaw/js/cookielaw.js' %} "></script>
+</head>
+<body>
+{% block cookielaw %}
+    {% cookielaw_banner %}
+{% endblock %}
+Test
+</body>
+</html>
